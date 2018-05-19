@@ -12,4 +12,5 @@ fn main() {
 //    app.gen_completions("gutenberg", Shell::Fish, "completions/");
 //    app.gen_completions("gutenberg", Shell::Zsh, "completions/");
 //    app.gen_completions("gutenberg", Shell::PowerShell, "completions/");
+    println!("cargo:rustc-link-search=/home/wmoore/Source/gutenberg/lib");
 }
